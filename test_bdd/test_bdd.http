@@ -1,0 +1,6 @@
+@test_bdd_HostAddress = http://localhost:5195
+
+GET {{test_bdd_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
